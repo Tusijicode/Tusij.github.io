@@ -187,13 +187,13 @@ transform: scaleY(1.2);
   background-image:url('images/2.JPG')
 }
 .photo ul li:nth-child(4){
-  background-image:url('images/6.JPG')
+  background-image:url('images/6.jpg')
 }
 .photo ul li:nth-child(5){
-  background-image:url('images/5.JPG')
+  background-image:url('images/5.jpg')
 }
 .photo ul li:nth-child(6){
-  background-image:url('images/4.JPG')
+  background-image:url('images/4.jpg')
 }
 
 
