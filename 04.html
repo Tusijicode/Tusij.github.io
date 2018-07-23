@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+  <head>
+      <meta charset='utf-8'>
+      <meta name="keywords" content="博客">
+      <link rel="stylesheet" type="text/css" href="04.css"> 
+      <base target="_blank"/>
+      <title>欢迎来到疯兔子的个人空间！</title>
+      <base target="_blank"/>
+  </head>
+  <body>
+ <div class="menu"><!--在一个类里面，也就是namespace，可以什么作用都不起-->
+    <ul class="clearfix" style="list-style:none"><!--class=item的方便之处在于，class可以修饰一个类-->
+      <li class="item translate"><a href="#">主页</a></li>
+      <li class="item translate-x"><a href="#">日志</a></li>
+      <li class="item translate-y"><a href="#">相册</a></li>
+      <li class="item rotate"><a href="#">留言板</a></li>
+      <li class="item scale"><a href="#">说说</a></li>
+      <li class="item scale-x"><a href="#">个人档</a></li>
+      <li class="item scale-y"><a href="#">音乐</a></li>
+      <li class="item skew"><a href="#">手机号</a></li>
+      <li class="item skew-x"><a href="#">伊妹儿</a></li>
+      <li class="item skew-x"><a href="#">更多</a></li>
+    </ul>
+  </div>
+
+
+  <div class="photo">
+    <ul style="list-style:none">
+      <li>
+        <div>
+          <h5>聪明</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h5>宅</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h5>善良</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h5>矮</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h5>中二</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h5>游戏少年</h5>
+          <p>集美丽与才华于一身，及技术与深度于一体。</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+ <!-- <div class="lianxi">
+    <ul style="list-style:none">
+      <p> </p>
+    </ul>
+  </div>
+-->
+  <a id="timings-demo-btn">click</a>
+  <div id="timings-demo">
+    <p>欢迎来到疯兔子的个人空间~</p>
+    <div id="ease" class="demo-box"></div>
+    <div id="ease-in" class="demo-box"></div>
+    <div id="ease-out" class="demo-box"></div>
+    <div id="ease-in-out" class="demo-box"></div>
+    <div id="linear" class="demo-box"></div>
+    <div id="cubic-bezier" class="demo-box"></div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#timings-demo-btn").toggle(
+       function(){
+         $(this).next("div#timings-demo").addClass("timings-demo-hover");
+       },function(){
+         $(this).next("div#timings-demo").removeClass("timings-demo-hover");
+    });
+ });
+</script>
+
+  <div class="rizhi">
+      <ul style="list-style:none">
+        <h3 id="name">About ME</h3>
+        <li id="neirong">人并不随着岁月的累积而衰老，而是随着没有理想的心态而老。<br/>
+            虽然岁月增添皮肤上的皱纹；但也只有热情冷却时，精神才会枯萎、松散。<br/>
+            苦闷、狐疑、不安、恐惧、失望，一如无情的岁月，容易催人老去；锐气、斗志也会因而消失殆尽。<br/>
+            “惊人的仰慕心“使我们不断追求如夜空中闪亮星辰的事物和思想，而且能够勇敢去面对挑战；对人生，也一如孩子般，以无止境的好奇心去探讨、去感兴趣、去爱。<br/>
+            年轻就是和信念与共，年迈则是与疑惑与共。<br/>
+            年轻就是和自信与共，年迈则是与恐怖与共。<br/>
+            有希望，就有无限青春，而失望，只会带来衰老。<br/>
+            不要失去唯有年轻才有的灵感——大地、神、人所给予的美、喜悦、勇气和力量。<br/>
+            一旦失去这些灵感，内心深处就会被悲叹、哀伤所笼罩。厚厚的冰层将封闭你的心灵，人也就会完全衰老，不再有任何朝气；除了祈求神的怜悯，再也不能做什么。</li>
+    </ul>
+  </div>
+  <div id="wenzi">
+      <p>联系方式：12388888888 <br/>E-mail:666@163.com</p>
+  </div>
+</body>  
+</html>
